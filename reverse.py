@@ -7,3 +7,7 @@ while num > 0:
     reverse = reverse * 10 + digit
     num = num // 10
 print("Reverse number is:", reverse)
+
+# This program takes a number from the user, extracts digits one by
+# one using modulus operator %, and builds the reverse number using
+# loop and arithmetic operations.
